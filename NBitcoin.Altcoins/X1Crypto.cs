@@ -20,7 +20,7 @@ namespace NBitcoin.Altcoins
 	{
 		public static X1Crypto Instance { get; } = new X1Crypto();
 
-		public override string CryptoCode => "XDS";
+		public override string CryptoCode => "X1";
 
 		public const int MaxReorgLength = 125;
 
